@@ -1,7 +1,7 @@
 function firstWord(str) {
-    if (!str) return ""; // Return empty string if input is empty
+    if (!str) return ""; 
 
-    // Trim leading spaces and split by the first space
+
     return str.trim().split(" ")[0];
 }
 
